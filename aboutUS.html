@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300&amp;display=swap"
+        rel="stylesheet">
+    <title>Cloud</title>
+
+    <style>
+        body {
+            font-family: "Montserrat", sans-serif;
+        }
+
+        .imageAboutUs {
+            width: 100%;
+            height: auto;
+            /* margin-left: -200px; */
+            /* margin-top: -150px; */
+        }
+
+        .container-fluid {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        @media (min-width: 1024px) {
+            .container-fluid {
+                padding-left: 125px;
+                padding-right: 125px;
+            }
+        }
+
+        /* .content {
+            margin-top: 25%;
+        } */
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .my-navbar ul li {
+            float: left;
+        }
+
+
+        .my-navbar li a {
+            display: block;
+            padding: 8px;
+            /* margin-top: 32px;
+            margin-right: 32px; */
+            background-color: #fff;
+            color: black;
+        }
+
+        li a:hover {
+            display: -moz-grid-line;
+            color: black;
+        }
+
+        .my-breadcrumb {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .my-breadcrumb li {
+            float: left;
+        }
+
+        .my-breadcrumb li:not(:first-child)::before {
+            content: ">";
+            padding-left: 5px;
+            padding-right: 5px;
+            color: gray;
+        }
+
+        .my-breadcrumb li a {
+            color: black;
+        }
+
+        .text {
+            text-align: start;
+            display: block;
+            font-weight: 200;
+            font-size: 18px;
+            line-height: 35px;
+            /* margin-left: 25px; */
+            /* margin-top: -150px; */
+            color: #686868;
+        }
+
+        .aboutUsTitle {
+            color: #fff;
+            z-index: 1;
+            /* text-align: left; */
+            font-size: 48px;
+            /* padding-left: 5%; */
+            /* padding-top: 50px; */
+            position: absolute;
+            left: 0;
+            right: 0;
+            /* bottom: 0; */
+            top: 50%;
+            transform: translate(0, -50%);
+
+        }
+
+        .aboutUsTitleImage {
+            opacity: 0.85;
+            width: 100%;
+            height: 150px;
+            /* margin-top: 25px; */
+
+
+        }
+
+        /* .aboutUsContainer {
+            position: relative;
+            text-align: left;
+            width: 100%;
+        } */
+
+        .aboutUSBottomTitle {
+            color: black;
+            list-style-type: none;
+            /* margin: 150px;
+            padding: 0;
+            overflow: hidden;
+            float: left; */
+            font-size: 12px;
+
+        }
+
+        .search-icon {}
+
+        .header-right {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: end;
+            height: 100%;
+            gap: 10px;
+        }
+
+        .logo {
+            object-fit: contain;
+        }
+
+        button {
+            border: none;
+            background: none;
+            transition: all 0.3s ease;
+            transform: scale(1);
+        }
+
+        button:hover {
+            transform: scale(0.9);
+        }
+
+        button:active {
+            transform: scale(0.5);
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid py-4">
+            <div class="row">
+
+                <div class="col-sm-2">
+                    <a href="#"><img src="assets/logo.webp" class="logo" width="100px" /></a>
+                </div>
+                <div class="col-sm-10">
+                    <div class="header-right">
+                        <nav class="my-navbar">
+                            <ul class="">
+                                <li><a href="#aboutUs">About Us</a></li>
+                                <li><a href="#brands">Brands</a></li>
+                                <li><a href="#career">Career</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                        <div class="search-icon">
+                            <button>
+                                <img src="assets/search-icon.png" alt="search" width="30px" height="30px" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-fluid p-0 position-relative">
+            <img src="assets/header-background.jpg" class="aboutUsTitleImage">
+            <div class="container-fluid aboutUsTitle">
+                <h1>About Us</h1>
+            </div>
+        </div>
+
+        <div class="container-fluid mt-2">
+            <ul class="my-breadcrumb">
+                <li><a href="HOME">HOME</a></li>
+                <li><a href="aboutUS.html">About US</a></li>
+            </ul>
+        </div>
+
+        <div class="container-fluid mt-3">
+            <div class="row">
+                <div class="col-sm-12 col-md-5">
+                    <img src="assets/lets-eat-image.jpg" class="imageAboutUs">
+                </div>
+                <div class="col-sm-12 col-md-7">
+                    <p class="text">
+                        Empowered by its vision and expertise, Cloud has emerged as a global force in theculinary and
+                        entertainment industry, setting new standards with its exceptional brands and innovative
+                        concepts.
+                        <br><br>
+                        Starting its journey in Istanbul, where culture, flavor, and entertainment converge, Cloud has
+                        expanded its influence through strategic partnerships and international ventures, becoming a
+                        renowned name in the global market.With a presence in over 7 countries and 21 cities, and more
+                        than 77 locations, Cloud offers an unparalleled dining experience across a range of segments.
+                        Our portfolio includes over 6 distinctive concepts and 18 brands, creating iconic destinations
+                        and luxurious spaces worldwide.
+                        <br><br>
+                        As an industry leader, we are dedicated to elevating standards and introducing fresh
+                        perspectives, ensuring that our brands resonate on the international stage.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
