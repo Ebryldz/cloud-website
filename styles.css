@@ -1,0 +1,156 @@
+.imageBrands {
+    width: 100%;
+    height: auto;
+}
+
+.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 1024px) {
+    .container-fluid {
+        padding-left: 125px;
+        padding-right: 125px;
+    }
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.my-navbar ul li {
+    float: left;
+}
+
+
+.my-navbar li a {
+    display: block;
+    padding: 8px;
+    background-color: #fff;
+    color: black;
+}
+
+li a:hover {
+    display: -moz-grid-line;
+    color: black;
+}
+
+.my-breadcrumb {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.my-breadcrumb li {
+    float: left;
+}
+
+.my-breadcrumb li:not(:first-child)::before {
+    content: ">";
+    padding-left: 5px;
+    padding-right: 5px;
+    color: gray;
+}
+
+.my-breadcrumb li a {
+    color: black;
+}
+
+.text {
+    text-align: start;
+    display: block;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 35px;
+    color: #686868;
+}
+
+.header-title {
+    color: #fff;
+    z-index: 1;
+    font-size: 48px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+
+}
+
+.header-title-image {
+    width: 100%;
+    height: 150px;
+    opacity: 0.85;
+    filter: blur(2.5px);
+
+}
+
+.header-bottom-title {
+    color: black;
+    list-style-type: none;
+    font-size: 12px;
+
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+    gap: 10px;
+}
+
+.logo {
+    object-fit: contain;
+    height: 100px;
+}
+
+button {
+    border: none;
+    background: none;
+    transition: all 0.3s ease;
+    transform: scale(1);
+}
+
+button:hover {
+    transform: scale(0.9);
+}
+
+button:active {
+    transform: scale(0.5);
+}
+
+.search-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.search-button input {
+    padding-right: 40px;
+
+}
+
+.search-button form {
+    position: absolute;
+    display: flex;
+    right: 0px;
+    margin-right: 0px;
+    margin-left: auto;
+    float: right;
+    gap: 5px;
+}
