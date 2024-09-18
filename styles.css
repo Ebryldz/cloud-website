@@ -1,6 +1,8 @@
 .imageAboutUs {
     width: 100%;
     height: auto;
+    border: 0.5px solid #304269;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
 
 a {
@@ -359,4 +361,100 @@ button:active {
 
 .ta-right {
     text-align: right;
+}
+
+.button-style {
+    font-size: 15px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.button-style:hover {
+    background-color: #686868;
+    color: #fff;
+}
+
+#carousel .carousel-inner {
+    height: 400px;
+    overflow: hidden;
+    margin-top: 50px;
+    align-items: center;
+}
+
+#main-carousel .carousel-item,
+#carousel .carousel-item {
+    height: 100%;
+
+}
+
+#main-carousel .carousel-item img,
+#carousel .carousel-item img {
+    height: 100%;
+    object-fit: contain;
+}
+
+#main-carousel .carousel-inner {
+    height: calc(100vh - 146px);
+}
+
+#main-carousel .carousel-item img {
+    object-fit: cover;
+}
+
+.index-text {
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.image-text {
+    width: 100%;
+    height: 700px;
+
+}
+
+.index-career-image {
+    position: relative;
+
+}
+
+.index-career-image-text {
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    padding: 60px;
+}
+
+
+.index-image-text {
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 20px;
+    opacity: 0.6;
+    font-size: 4vw;
+    text-align: center;
+}
+
+@media (min-width: 1300px) {
+    .index-career-image {
+        margin-right: 380px;
+    }
+
+    .index-career-image-text {
+        position: absolute;
+        top: 10%;
+        right: 50px;
+        width: 400px;
+    }
+
+    .index-image-text {
+        text-align: left;
+
+    }
 }

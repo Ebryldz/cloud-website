@@ -24,17 +24,17 @@ const createImage = (title, imageSrc, url) => {
 const brandItems = [
     {
         title: "STAR",
-        url: "star.html",
+        url: "brand.html?name=star",
         imageSrc: "assets/brands-image-firt.jpg"
     },
     {
         title: "BOBO",
-        url: "bobo.html",
+        url: "brand.html?name=bobo",
         imageSrc: "assets/brands-image-second.jpg"
     },
     {
         title: "CARAMEL",
-        url: "caramel.html",
+        url: "brand.html?name=caramel",
         imageSrc: "assets/brands-image-third.jpg"
     }
 ];
