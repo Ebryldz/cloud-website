@@ -25,17 +25,17 @@ const brandItems = [
     {
         title: "STAR",
         url: "brand.html?name=star",
-        imageSrc: "assets/brands-image-firt.jpg"
+        imageSrc: "assets/images/brands-image-firt.jpg"
     },
     {
         title: "BOBO",
         url: "brand.html?name=bobo",
-        imageSrc: "assets/brands-image-second.jpg"
+        imageSrc: "assets/images/brands-image-second.jpg"
     },
     {
         title: "CARAMEL",
         url: "brand.html?name=caramel",
-        imageSrc: "assets/brands-image-third.jpg"
+        imageSrc: "assets/images/brands-image-third.jpg"
     }
 ];
 

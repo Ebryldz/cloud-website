@@ -1,7 +1,7 @@
 const brands = {
     "star": {
-        headerImage: "assets/brands-image-firt.jpg",
-        image: "assets/star.png",
+        headerImage: "assets/images/brands-image-firt.jpg",
+        image: "assets/images/star.png",
         name: "STAR",
         desc: "Welcome to <b>Star</b> <br> Perched with a stunning view of the city skyline, <b>Star</b> is one of the most exclusivedining destinations in town. Blending classic elegance with a contemporary flair, <b>Star</b> features a chic interior design complemented by a sophisticated winter garden and an open kitchen seamlessly integrated into the dining area. <br> At <b> Star</b>, we offer an exceptional culinary experience by combining world flavors with local inspirations.Our menu, which evolves with the seasons, promises a diverse and rich selection that caters to a variety of tastes. <br> In addition to our gourmet offerings, <b> Star</b> creates a unique atmosphere by harmonizing exquisite cuisine with captivating music.To complete the experience, we also boast a separate, vibrant nightclub where you can enjoy a night of entertainment and dancing. <br> Discover the perfect fusion of taste, ambiance, and entertainment at <b> Star</b >.",
         address: "Hobyar, 4, Türk Ocağı Cd. <br> 34112 Fatih/İstanbul",
@@ -11,8 +11,8 @@ const brands = {
         titleBrands: "Cloud-Brands-Star",
     },
     "bobo": {
-        headerImage: "assets/brands-image-second.jpg",
-        image: "assets/bobo.png",
+        headerImage: "assets/images/brands-image-second.jpg",
+        image: "assets/images/bobo.png",
         name: "BOBO",
         desc: "<b>Bobo</b> Restaurant stands out as one of Istanbul's premier event venues, offering an exceptional setting for a variety of special occasions. With its stunning city views and elegant interior design, <b>Bobo</b> Restaurant is the perfect choice for hosting events such as weddings, cocktail receptions, and gala dinners. <br> Featuring spacious and stylish salons, <b>Bobo</b> Restaurant provides an exquisite ambiance suitable for both summer and winter celebrations.The modern and sophisticated atmosphere ensures that every event is memorable and uniquely tailored to your needs. <br> Experience unforgettable moments with your guests against the backdrop of the city skyline. <b>Bobo</b> Restaurant combines a delectable menu with professional service to make every event truly special.",
         address: "Selimiye, Tıbbiye Cd No: 38, <br> 34668 Üsküdar/İstanbul",
@@ -22,8 +22,8 @@ const brands = {
         titleBrands: "Cloud-Brands-Bobo",
     },
     "caramel": {
-        headerImage: "assets/brands-image-third.jpg",
-        image: "assets/caramel.png",
+        headerImage: "assets/images/brands-image-third.jpg",
+        image: "assets/images/caramel.png",
         name: "CARAMEL",
         desc: "<b>Caramel</b> Restaurant embodies the essence of contemporary culinary excellence, offering a unique fusion of modern flavors and elegant atmosphere. With its vibrant ambience, exquisite cuisine, and curated music, <b>Caramel</b> captures the true spirit of fine dining. <br> Our restaurant, bar, and lounge areas provide an exclusive gastronomic experience where every detail is crafted to perfection. Whether you're enjoying a sophisticated meal, sipping on handcrafted cocktails, or relaxing in our stylish lounge, <b>Caramel</b> delivers an unforgettable culinary journey that celebrates innovation and taste. <br> Discover a world of refined dining at <b>Caramel</b> Restaurant, where each visit promises a memorable experience defined by exceptional food, ambiance, and service.",
         address: "Caddebostan, Bağdat Cad., <br> 34728 Kadıköy/İstanbul",
